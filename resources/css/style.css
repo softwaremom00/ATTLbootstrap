@@ -1,0 +1,175 @@
+html, body{
+  font-size: 18px;
+  line-height: 1.4;
+  font-family: Helvetica, sans-serif;
+  background-color: #c7b299; /* rgba(199,178,153,0.6);  #d6cf83; */
+}
+
+.container{
+  width: 960px;
+  margin: 0 auto;
+}
+
+.main {
+  margin-top: 0;
+  background: url("../images/tapestry-background-min.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 30rem;
+}
+.logo-navbar{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  opacity: .6;
+  color: black;
+  margin-top:0;/* when I give this a value it moves the entire .main container down .. do not understand why */
+  position: relative;   /* so I used this  and setting top below to give me a top margin to the logo-navbar */
+  top: 1em;
+  padding: 1rem 2rem;
+  margin-bottom: 10rem;
+}
+
+
+.logo-navbar span{
+  display: inline-block;
+  font-size:1rem;
+  margin-right: 2rem;
+  margin-left: 0;
+
+}
+
+.banner{
+   text-align: center;
+   margin-bottom: 2rem;
+
+}
+
+.banner span{
+  display: inline-block;
+  background-color: white;
+  opacity: .8;
+  color: gray;
+  padding: 1.5rem 5rem;
+  width:auto;
+  font-size: 2rem;
+  line-height: 1.2;
+  font-weight: bold;
+  margin-top: 14rem;
+
+}
+
+#mainTitle a{
+  text-decoration: none;
+  color: black;
+}
+
+#mainTitle a:visited{
+  color: black;
+}
+
+nav a{
+  text-decoration: none;
+  color: black;
+  transition-property: color;
+  transition-duration: 500ms;
+}
+nav a:hover{
+  color: red;
+  text-decoration: none;
+}
+nav a:visited{
+  text-decoration: none;
+  color: black;
+}
+
+.content{
+  margin-top: 1.5rem;
+  display: flex;
+
+  justify-content: space-around;
+}
+.content h2{
+  font-size: 1rem;
+}
+
+.content p{
+  font-size: .8rem;
+}
+
+.events-dyekits img{
+  margin-top: 1rem;
+  width: 23rem;
+  height: auto;
+}
+.events-dyekits ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.events-dyekits li{
+  line-height: 1.4rem;
+  font-size: .8rem;
+  font-weight: 500;
+}
+
+.events-dyekits{
+  /*display: flex;
+  flex-direction: column;
+  width: 40%;*/
+}
+
+.festivals-quotes{
+  /*display: flex;
+  flex-direction: column;
+  width: 40%;*/
+}
+
+.festivals-quotes img{
+  width: 23rem;
+
+}
+.article-title{
+  display:flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin-left: 2rem;
+  margin-top: 1rem;
+  width: 80%;
+}
+.column-1{
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+}
+
+.column-2{
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+}
+
+.column-1 img{
+  width: 23rem;
+}
+
+.column-2 img{
+  width: 23rem;
+}
+
+#woman img{
+  width: 30rem;
+  height: auto;
+}
+
+.copyright{
+  padding-left:1rem;
+  margin-top: 5rem;
+  padding-top: 2rem;
+  height: 8rem;
+  background-color: white;
+  opacity: .5;
+  color: black;
+}
