@@ -101,7 +101,7 @@ nav a:visited{
 
 .events-dyekits img{
   margin-top: 1rem;
-  width: 23rem;
+  width: 26rem;
   height: auto;
 }
 .events-dyekits ul{
@@ -115,25 +115,31 @@ nav a:visited{
   font-weight: 500;
 }
 
-.events-dyekits{
+.column-one, .events-dyekits{
   margin-left: 3rem;
   margin-bottom: 2rem;
-  /*display: flex;
-  flex-direction: column;
-  width: 40%;*/
  font-size: .9rem;
  font-weight: 400;
 }
-
-.festivals-quotes{
+.column-one img{
+  margin-top: 1rem;
+  width: 26rem;
+  height: auto;
+}
+.column-two, .festivals-quotes{
   margin-left: 3rem;
   font-size: .9rem;
   font-weight: 400;
 }
-
+.column-two img{
+  width: 23rem;
+}
 .festivals-quotes img{
   width: 23rem;
 
+}
+.title-single-page{
+  margin-left:3rem;
 }
 .article-title{
   display:flex;
